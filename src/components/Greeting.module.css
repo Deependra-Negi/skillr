@@ -27,9 +27,6 @@
     line-height: 20px;
     font-size: 14px;
 }
-.bottom div:nth-child(3){
-}
-
 .bottom button{
     background: #FFFFFF;
     box-shadow: 0px 7px 24px rgba(0, 0, 0, 0.2);
