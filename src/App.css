@@ -5,7 +5,7 @@
     font-family: 'Inter';
 }
 .App{
-    height: 100vh;
+    height: 900px;
     width: 100vw;
     background: url(./assets/bg.png);
     background-repeat: no-repeat;
