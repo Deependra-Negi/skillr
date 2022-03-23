@@ -41,7 +41,6 @@
     padding: 0 40px;
 }
 .bottomCont{
-    padding: 0 40px;
     height: 556px;
     position: relative;
     top: 30px;
@@ -50,6 +49,7 @@
     border-radius: 20px 20px 0px 0px;
 } 
 .scoreCont{
+    padding: 0 40px;
     height: 80px;
     margin: 32px 0;
     display: flex;
@@ -77,6 +77,66 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.dashed{
+    border-top: 1px dashed #DAE3E8;
+}
 .profileCont{
-
+    padding: 0 40px;
+}
+.profileCont>h3{
+    text-decoration: none;
+    margin: 41px 0 12px 0;
+    line-height: 28px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.profileCont>div{
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+.profileCont>div:last-child{
+    display: flex;
+    flex-direction: column;
+}
+.profileTop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.profileTop>div:first-child{
+    margin-top: 1rem;
+}
+.profileTop>div:last-child{
+    display: flex;
+    flex-direction: column;
+}
+.profileTop h4{
+    margin: 1rem 1rem 0.5rem 1rem;
+    font-size: 14px;
+    line-height: 20px;
+}
+.profileTop p{
+    margin: 0 1rem;
+    font-size: 1rem;
+    line-height: 24px;
+}
+.profileTop img{
+    border-radius: 15px;
+}
+.profileBottom{
+    align-self: center;
+    margin: 1rem;
+    width: 100%;
+}
+.profileBottom>button{
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    background: #0094FF;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
 }

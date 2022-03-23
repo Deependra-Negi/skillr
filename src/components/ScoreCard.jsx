@@ -31,8 +31,29 @@ function ScoreCard() {
               <span>🔥</span>
             </div>
           </div>
+          <div className={styles.dashed}></div>
           <div className={styles.profileCont}>
-
+            <h3>Share your results</h3>
+            <div>
+              <div><img src="linkedin.png" alt="" /></div>
+              <div><img src="insta.png" alt="" /></div>
+              <div><img src="fb.png" alt="" /></div>
+              <div><img src="whatsapp.png" alt="" /></div>
+              <div><img src="more.png" alt="" /></div>
+            </div>
+            <div>
+              <div className={styles.profileTop}>
+                <div><img src="photo.png" alt="" /></div>
+                <div>
+                  <h4>Speak to our expert</h4>
+                  <p>Become the best & connect with thousands
+                    of relevant job opportunities.</p>
+                </div>
+              </div>
+              <div className={styles.profileBottom}>
+                <button>Book a Free Slot</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
