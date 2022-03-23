@@ -1,0 +1,82 @@
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.upper{
+    display: flex;
+    position: relative;
+    
+    justify-content: center;
+}
+.upper>div:first-child{
+    margin-top: 4rem;
+}
+.upper>div:first-child>img{
+    width: 128px;
+}
+.upper>div:last-child{
+    position: absolute;
+    margin-top: 90px;
+    right: 73px;
+}
+.upper>div:last-child>img{
+    width: 97px;
+}
+.textCont{
+    text-align: center;
+    color: #FFFFFF;
+}
+.textCont>h2{
+    margin-top: 2rem;
+    line-height: 33.6px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.textCont>p{
+    margin-top: 12px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 40px;
+}
+.bottomCont{
+    padding: 0 40px;
+    height: 556px;
+    position: relative;
+    top: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 7px 24px rgba(0, 0, 0, 0.2);
+    border-radius: 20px 20px 0px 0px;
+} 
+.scoreCont{
+    height: 80px;
+    margin: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    color:#262626;
+}
+.scoreCont div:first-child>p{
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.scoreCont div:first-child>h2{
+    margin-top: 4px;
+    line-height: 44px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.scoreCont div:last-child{
+    align-self: center;
+    position:relative;
+}
+.scoreCont div:last-child span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.profileCont{
+
+}

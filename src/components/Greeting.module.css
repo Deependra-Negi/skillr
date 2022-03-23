@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background-size: cover;
-    flex-direction: column;
+    flex-direction:column;
 }
 .cont img{
     width: 100vw;
@@ -10,7 +10,7 @@
 .bottom{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content:flex-start;
     text-align: center;
     padding: 0 65px;
     color: #FFFFFF;
